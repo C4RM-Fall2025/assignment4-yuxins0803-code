@@ -9,5 +9,5 @@ def getBondPrice_Z(face, couponRate, times, yc):
         cf=coupon
         if i==m-1:
             cf=cf+face
-        bondPrice=bondPrice+cf/((1+r)**t    
+        bondPrice=bondPrice+cf/((1+r)**t)    
     return(bondPrice)
